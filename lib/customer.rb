@@ -15,7 +15,6 @@ class Customer
 
   def meals
     Meal.all.select do |meal|
-      puts "#{meal}"
       meal.customer == self
     end
   end

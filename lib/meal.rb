@@ -5,7 +5,7 @@ class Meal
     @waiter = waiter
     @total = total
     @tip = tip
-    @@all << this
+    @@all << self
   end
 
   def self.all
